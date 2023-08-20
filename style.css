@@ -1,0 +1,546 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home{
+    height: 250vh;
+    width: 100%;
+}
+.home .nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.home .nav span{
+    color: orange;
+    font-size: 20px;
+}
+.home .nav h1{
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 30px;
+
+}
+
+.home .nav ul{
+ list-style-type: none;
+ display: flex;
+ margin-right: 30px;
+}
+.home .nav ul li{
+    margin: 20px;
+    margin-top: 45px;
+}
+.home .nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.home .nav ul li a:hover{
+    color: orange;
+}
+.home .img {
+
+    height: 50%;
+    text-align: center;
+    width: 65%;
+    margin-left: 15%;
+   
+}
+
+.home .img h1{
+    font-size: 45px;
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home .img p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+ 
+.home .img button{
+    background-color: white;
+    color: orange;
+    font-size:20px ;
+    padding: 7px 19px;
+    margin-top: 30px;
+    border: 2px solid orange;
+    border-radius: 50px;
+}
+.home .img button:hover{
+    background-color: orange;
+    color: white;
+
+}
+.home .icons {
+    text-align: center;
+    margin-top: 10px;
+}
+.home .icons a{
+    margin: 17px;
+   font-size: 17px;
+   text-decoration: none;
+   color: gray;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.home .icons a:hover{
+    color: orange;
+}
+.home .caption1{
+   
+    height: 50%;
+    margin-top: 100px;
+}
+.home .caption1 p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    color: gray;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.home .caption1 .div1{
+   
+    display: flex;
+    height:50%;
+    margin-top: 80px;
+    justify-content: space-around;
+
+}
+.home .caption1 .div1 .div2
+{
+   
+text-align: center;
+}
+.home .caption1 .div1 .div2 p{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home .caption1 .div1 .div2 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 40px;
+}
+.home .caption1 .div1 .div2 h4{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+.home .caption1 .div1 .div2:hover{
+    border: 2px solid white;
+    background-color: white;
+    box-shadow:  0px 6px 6px  rgb(0,0,0,.5);
+    
+}
+.home .caption2{
+    height: 50%;
+    
+}
+.home .caption2 p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    color: gray;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.home .caption2 .div1 .div2 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+.home .caption2 .div1{
+    display: flex;
+    flex-wrap: wrap;
+    height:50%;
+    margin-top: 80px;
+    justify-content: center
+}
+.home .caption2 .div1 .div2{
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    height: 60%;
+}
+.home .caption2 .div1 .div2 h2{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home .caption2 .div1 .div2:hover{
+    border: 2px solid white;
+    background-color: white;
+    box-shadow:  0px 6px 6px  rgb(0,0,0,.5);
+    
+}
+.home .caption3{
+    height: 50%;
+    
+}
+.home .caption3 p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    color: gray;
+    margin-top: 20px;
+    text-align: center;
+}
+.home .caption3 .div1{
+    display: flex;
+    flex-wrap: wrap;
+   height: 60%;
+    margin-top: 80px;
+    justify-content: center;
+   
+}
+.home .caption3 .div1 .div2{
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+
+}
+.home .caption3 .div1 .div2:hover{
+    border: 2px solid white;
+    background-color: white;
+    box-shadow:  0px 6px 6px  rgb(0,0,0,.5);
+    
+}
+.home .caption3 .div1 .div2 i{
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 40px;
+}
+.home .caption3 .div1 .div2 h4{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(44, 43, 43);
+}
+.home .contact{
+    height: 100%;
+    
+}
+.home .contact .con2{
+    display: flex;}
+
+.home .contact h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    color: gray;
+    margin-top: 20px;
+    text-align: center;
+}
+.home .contact .con2 .con1{
+    width: 50%;
+    height:85%;
+  
+}
+.home .contact .con2 .con1 .location{
+    width: 50%;
+    height: 15%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
+.home .contact .con2 .con1 .location i{
+font-size: 35px;
+margin-top: 20px;
+margin-right: 10px;
+color: orange;
+}
+.home .contact .con2 .con1 .location p{
+    font-size: 15px;
+    
+}
+.home .contact .con2 .con1 .email{
+    width: 50%;
+    height: 15%;
+    margin-top: 0px;
+    display: flex;
+    margin-left: 50px;
+    
+}
+.home .contact .con2 .con1 .email i{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: orange;
+    }
+    .home .contact .con2 .con1 .email p{
+        font-size: 15px;
+        margin-top: 28px;
+        margin-left: 15px;
+        
+    }
+    .home .contact .con2 .con1 .phone{
+        width: 50%;
+        height: 15%;
+        margin-top: 0px;
+        display: flex;
+        
+        margin-left: 50px;
+        
+    }
+    .home .contact .con2 .con1 .phone i{
+        font-size: 35px;
+        margin-top: 20px;
+        margin-right: 15px;
+        margin-left: 40px;
+        color: orange;
+        }
+        .home .contact .con2 .con1 .phone p{
+            font-size: 15px;
+            margin-top: 28px;
+            
+        }
+        .home .contact .con2 .con1 .map iframe{
+            margin-left: 85px;
+
+        }
+.home .contact .con2 {
+    display: flex; 
+    height: 100%;
+    margin-top: 40px;
+    
+}
+.home .contact .con2 .contact1{
+    width: 40%;
+    height: 90%;
+    margin-left: 60px;
+}
+
+
+.home .contact .contact1 .name input{
+    font-size: 20px;
+   margin-top: 40px;
+   width: 90%;
+  padding: 7px; 
+}
+.home .contact .contact1 .email input{
+    font-size: 20px;
+   margin-top: 20px;
+   width: 90%;
+  padding: 7px; 
+}
+.home .contact .contact1 .phone input{
+    font-size: 20px;
+   margin-top: 20px;
+   width: 90%;
+  padding: 7px; 
+}.home .contact .contact1 .category input{
+    font-size: 20px;
+   margin-top: 20px;
+   width: 90%;
+  padding: 7px; 
+}
+.home .contact .contact1 .Message textarea{
+    font-size: 20px;
+   margin-top: 20px;
+   width: 90%;
+  padding: 7px; 
+  color: gray;
+  
+}
+.home .contact .contact1 button{
+    text-align: center;
+    border: 2px solid orange;
+    background-color: orange;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 160px;
+    margin-top: 18PX;
+}
+.home .contact .contact1 button:hover{
+    background-color: #92d283;
+    border: 2px solid #92d283;
+}
+.home .nav .bar{
+    display:none;
+}
+.home .nav .bar i{
+    color: rgb(10, 11, 11);
+    font-size: 25px;
+    margin-top: 40px;
+    margin-right: 0px;
+}
+
+@media (max-width:600px){
+    .home{
+        height: 800vh;
+    }
+    .home .nav .bar{
+
+        display: block;
+    }
+    .home .nav .bar i{
+        color: black;
+    }
+    .home .nav ul{
+        display: none;
+    }
+   
+    .home .img h1{
+        font-size: 25px;
+        margin-top: 70px;
+    }
+    .home .img p{
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: 200;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .home .img{
+        height: 13%;
+    }
+    .home .img img{
+        width: 230px;
+        margin-top: 30px;
+     
+    }
+    .home .img button{
+        margin-left: 30px;
+    }
+    .home .icons{
+        margin-top: 0px;
+        height: 3%;
+    }
+    .home .icons a i{
+        font-size: 20px;
+    }
+    .home .caption1{
+        height: 25%;
+    }
+    .home .caption1 p{
+        font-size: 60px;
+    }
+    .home .caption1 .div1{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .home .caption1 .div1 .div2{
+        height: 60%;
+        margin-top: 30px;
+        width: 80%;
+    }
+    .home .caption2 {
+        margin-top: 90px;
+        height: 25%;
+
+
+    }
+    .home .caption2 .div1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home .caption2 .div1 .div2{
+        width: 60%;
+        height: 27%;
+        margin-top: 20px;
+
+    }
+    .home .caption3 {
+        height: 25%;
+    }
+    .home .caption3 .div1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home .caption3 .div1 .div2 {
+        width: 70%;
+        height: 20%;
+    }
+    .home .contact{
+        margin-top: 400px;
+        height: 200%;
+    }
+    .home .contact .con2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home .contact .con2 .con1{
+        height: 22%;
+        width: 100%;
+    }
+    .home .contact .con2 .con1 .location{
+        margin-top: 15px;
+        width:250px;
+        height: 13%;
+        margin-left: 5px;
+        
+    }
+    .home .contact .con2 .con1 .email{
+        margin-top: 20px;
+        width:220px;
+        height: 12%;
+        margin-left: 2px;
+        
+    }
+    .home .contact .con2 .con1 .email i{
+        margin-left: 15px;
+    }
+    .home .contact .con2 .con1 .phone{
+        margin-top: 20px;
+        width:220px;
+        height: 12%;
+        margin-left: 2px;
+    
+
+    }
+    .home .contact .con2 .con1 .phone i{
+        margin-left: 15px;
+    }
+    .home .contact .con2 .con1 .map{
+        width: 300px;
+     
+        margin-top: 50px;
+    }
+    .home .contact .con2 .con1 .map iframe{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .home .contact .con2 .contact1{
+        margin-top: 10px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .home .contact .contact1 input{
+        width: 90%;
+        
+    }
+
+    .home .contact .contact1 button{
+        margin-left: 90px;
+    }
+
+    
+}
+@media (max-width:750px){
+    .home .nav .bar{
+        display: block;
+    }
+    .home .nav .bar i{
+        margin-left: 100%;
+        margin-left: 5px;
+    }
+    .home .nav ul{
+        display: none;
+    }
+    
+}
